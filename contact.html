@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        box-sizing: border-box;
+    }
+
+    body {
+        /* display: flex; */
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-color: #0a0f4e;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .wrapper1 {
+        position: relative;
+        width: 1100px;
+        margin: auto;
+
+    }
+
+    nav {
+        height: 80px;
+        width: 100%;
+        display: flex;
+        line-height: 80px;
+        position: sticky;
+        top: 0;
+        background-color: rgba(12, 12, 63);
+        z-index: 1;
+
+    }
+
+    .logo {
+        font-size: 45px;
+        margin-left: 15px;
+        font-weight: 200px;
+        float: left;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background: linear-gradient(43deg, #4158d0 0%, #c850c0 46%, #0a0f4e 200%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+
+    }
+
+    .menu {
+        float: right;
+
+    }
+
+    nav ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        overflow: hidden;
+        border-radius: 50px;
+        padding-left: 30px;
+        padding-right:30px ;
+    }
+
+    nav ul li {
+        float: left;
+    }
+
+    nav ul li a {
+
+        font-weight: bold;
+        text-align: center;
+        padding: 0px 15px 0px 15px;
+        font-size: 17px;
+        color: #fff;
+        text-decoration: none;
+        
+
+    }
+
+    nav a:hover {
+        background-color: #ffffff;
+        border-radius: 20px;
+        padding: 10px;
+        
+
+    }
+
+    nav ul li :hover {
+        text-decoration: underline;
+        color: rgb(0, 0, 0);
+        transition: 0.5s;
+        text-decoration: none;
+        box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan, 0 0 200px cyan; 
+    }
+
+    /* ini navbar */
+   
+    .wrapper {
+        width: 420px;
+        color: white;
+        background: transparent 100%;
+        border: 2px solid rgba(225, 225, 225, .5);
+        backdrop-filter: blur(80px);
+        border-radius: 25px;
+        padding: 30px 40px;
+        margin-left: 35%;
+    }
+
+    .wrapper h1 {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .wrapper .input-box {
+        width: 100%;
+        height: 50px;
+        margin: 30px 0;
+        position: relative;
+
+    }
+
+    .input-box p,
+    input {
+        background: transparent;
+        height: 100%;
+        width: 100%;
+        outline: none;
+        border: none;
+        border: solid 2px gray;
+        border-radius: 40px;
+        color: rgb(255, 255, 255);
+        padding: 15px 45px 20px 10px;
+
+    }
+
+    h1 {
+        background: linear-gradient(43deg, #4158d0 25%, #c850c0 60%, #0a0f4e 200%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .input-box i {
+        position: absolute;
+        right: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 20px;
+    }
+
+    .wrapper .remember-forgot {
+        display: flex;
+        justify-content: space-between;
+        font-size: 14.5px;
+        margin: -15px 0 15px 0px;
+        
+    }
+    .remember-forgot h4 a {
+        margin-right: 10px;
+        padding-left: 0px;
+    }
+
+    .remember-forgot label:hover {
+        cursor: pointer;
+    }
+
+
+    .remember-forgot h4 a {
+        color: #fff;
+        text-decoration: none;
+        margin-right: 40px;
+    }
+
+    .remember-forgot a:hover {
+        text-decoration: underline;
+    }
+
+    .wrapper .btn {
+        width: 100%;
+        height: 45px;
+        border-radius: 40px;
+        border: none;
+        outline: none;
+        box-shadow: 0 0 10px rgba(o, 0, 0, 1);
+        cursor: pointer;
+        font-size: 16px;
+        color: rgb(0, 0, 0);
+        font-weight: 900;
+    }
+
+    .wrapper .register-link {
+        text-align: center;
+        font-size: 14px;
+        margin-top: 20px;
+        margin: 20px 0;
+    }
+
+    .register-link p a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+    .register-link p a:hover {
+        text-decoration: underline;
+    }
+</style>
+
+<body>
+    <nav>
+        <d iv class="wrapper1">
+            <div class="logo">ALDRIANO AUFA</div>
+            <div class="menu">
+                <ul>
+                    <li> <a href="home.html">home</a></li>
+                    <li> <a href="about me.html">about me</a></li>
+                    <li> <a href="CV.pdf">download CV</a></li>
+                    <li> <a href="contact.html">contact</a></li>
+                </ul>
+            </div>
+            </div>
+    </nav>
+
+    <div class="wrapper">
+        <form action="">
+            <h1>contact me</h1>
+            <p>email</p>
+            <div class="input-box" style="margin-top: 1px;">
+                <p class="p1" type="text" placeholder="username">aldrianoaufa52@gmail.com</p>
+
+            </div>
+            <p>no wa</p>
+            <div class="input-box" style="margin-top: 1px;">
+                <p class="p1" type="text" placeholder="username">0827 4892 4963</p>
+
+            </div>
+            <p>instagram</p>
+            <div class="input-box" style="margin-top: 1px;">
+                <p class="p1" type="text" placeholder="password">@aldriano_aufa_07</p>
+
+            </div>
+            <p>kirim pesan & kesan anda</p>
+            <div class="input-box" style="margin-top: 1px;">
+                <input class="p1" type="text" placeholder="ketik di sini">
+
+            </div>
+
+            <!-- link forgot -->
+            <div class="remember-forgot">
+                <p>mau menghubungi pemilik lewat email?</p>
+                <h4><a href=""> klik sini </a></input></h4>
+
+            </div>
+
+
+            <button type="submit" class="btn" onclick="ini()">kirim</button>
+            <!-- pnt forgot -->
+
+
+            <div class="register-link">
+                <p>mau menghubungi pemilik lewat wa? <a href="https://wa.me/qr/VF2XW6Z7K7NCA1">klik sini</a></p>
+            </div>
+
+        </form>
+    </div>
+    <script>
+        function ini() {
+            alert("Terima kasih atas saran dan kritikannya, semoga dengan anda membrikan saran dan kritikan ini akan menjadi lebih baik kedepannya");
+        }
+    </script>
+</body>
+
+</html>
